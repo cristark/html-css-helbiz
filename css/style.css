@@ -2,6 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  color: #212529;
 }
 
 .container {
@@ -57,6 +58,7 @@ body {
   background-image: url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-attachment: fixed; */
   height: 600px;
   position: relative;
 }
@@ -79,4 +81,44 @@ body {
   .testo h1 {
     font-size: 2.5em;
   }
+}
+
+/* - - MAIN SECTION - - */
+/* Prima sezione - Prodotti */
+.products [class*="col-"] {
+  height: 450px;
+  padding: 50px 20px;
+}
+
+.products .row {
+  background-color: #fafafa;
+  padding: 30px;
+}
+
+.products img {
+  height: 350px;
+}
+
+.products .row p:first-child {
+  font-size: 2.2em;
+  font-weight: 300;
+}
+
+.products p strong {
+  font-weight: 700;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+.products .row p:nth-child(2) {
+  font-size: 1.2em;
+}
+
+.products a {
+  display: block;
+  color: #0070c8;
+}
+
+.products a:hover {
+  text-decoration: underline;
 }
