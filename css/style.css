@@ -15,14 +15,29 @@ body {
   line-height: 80px;
 }
 
+/* Menù mobile */
+.nav-hamb i {
+  margin-right: 50px;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
 /* Logo */
 .logo img {
   vertical-align: text-bottom;
 }
 
+/* Menù principale */
 .main-nav ul li {
   margin-right: 20px;
   text-transform: uppercase;
+}
+
+/* Media per risolvere problema scomparsa ultimo elemento menù */
+@media screen and (max-width: 1060px) {
+  .main-nav ul li {
+    margin-right: 15px;
+  }
 }
 
 .main-nav ul li a {
@@ -42,7 +57,7 @@ body {
   background-image: url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 600px;
   position: relative;
 }
 
@@ -52,4 +67,16 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.testo h1 {
+  font-size: 3em;
+  margin-bottom: 25px;
+}
+
+/* Responsive Jumbotron */
+@media screen and (max-width: 494px) {
+  .testo h1 {
+    font-size: 2.5em;
+  }
 }
