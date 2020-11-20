@@ -10,6 +10,10 @@ body {
   margin: 0 auto;
 }
 
+h2 {
+  font-size: 1.8em;
+}
+
 /* MENU NAV */
 .header-nav {
   height: 80px;
@@ -86,7 +90,6 @@ body {
 /* - - MAIN SECTION - - */
 /* Prima sezione - Prodotti */
 .products [class*="col-"] {
-  height: 450px;
   padding: 50px 20px;
 }
 
@@ -121,4 +124,51 @@ body {
 
 .products a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 520px) {
+  .products img {
+    height: 270px;
+  }
+}
+
+/* Seconda Sezione - How it works */
+.hiw {
+  background-image: url(../img/index-banner.1f6fd0a.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 720px;
+}
+
+.hiw .container {
+  margin-top: 120px;
+  vertical-align: sub;
+}
+
+.hiw .container [class*="col-"] {
+  padding: 0 20px;
+}
+
+.hiw .container h2 {
+  padding: 0 0 0 160px;
+}
+
+.mt-420 {
+  margin-top: 420px;
+}
+
+.mt-450 {
+  margin-top: 450px;
+}
+
+.hiw img {
+  height: 550px;
+}
+
+/* Terza Sezione - Mobility */
+.mobility {
+  background-image: url(../img/scooter.f0a0397.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 700px;
 }
