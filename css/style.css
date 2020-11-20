@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1350px;
   margin: 0 auto;
 }
 
@@ -170,5 +170,32 @@ h2 {
   background-image: url(../img/scooter.f0a0397.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 700px;
+  height: 540px;
+  color: white;
+  position: relative;
+}
+
+.mobility .row [class*="col-"] {
+  padding: 0 150px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+}
+
+.mobility .row [class*="col-"] h2 {
+  font-size: 2.8em;
+}
+
+.mobility .row [class*="col-"] p {
+  font-size: 1.4em;
+  padding-bottom: 30px;
+}
+
+.mobility .row [class*="col-"] a {
+  font-size: 1.2em;
+  color: white;
+}
+
+.mobility .row [class*="col-"] a:hover {
+  text-decoration: underline;
 }
