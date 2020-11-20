@@ -1,7 +1,40 @@
 /* - - GENERAL - - */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
+}
+
+/* MENU NAV */
+.header-nav {
+  height: 80px;
+  line-height: 80px;
+}
+
+/* Logo */
+.logo img {
+  vertical-align: text-bottom;
+}
+
+.main-nav ul li {
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.main-nav ul li a {
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #343434;
+}
+
+/* Language Menù */
+.lang-nav ul li:not(:last-child) a {
+  border-right: 1.5px solid black;
+  padding-right: 10px;
 }
 
 /* - - JUMBOTRON - - */
@@ -10,4 +43,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  position: relative;
+}
+
+.jumbotron .testo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }

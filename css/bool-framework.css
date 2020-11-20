@@ -71,6 +71,11 @@ a {
   text-align: center;
 }
 
+/* - - BORDI - - */
+.b-dx-1-blk {
+  border-right: 1px solid black;
+}
+
 /* - - MARGINI - - */
 .m-10 {
   margin: 10px;

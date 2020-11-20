@@ -6,9 +6,9 @@
     <title>Transportation of Tomorrow | Helbiz</title>
     <!-- Like FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Link Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <!-- Link Framework -->
     <link rel="stylesheet" href="css/bool-framework.css">
     <!-- Link Foglio di stile -->
@@ -17,51 +17,47 @@
 </head>
 <body>
     <!-- Sezione HEADER -->
-    <header class="debug">
+    <header>
 
         <!-- MENU' DI NAVIGAZIONE -->
         <div class="header-nav container">
             <div class="row">
 
                 <!-- Colonna LOGO -->
-                <div class="col-lg-3 col-lg-offset-1">
-                    <img class="logo" src="img/helbiz-logo.svg" alt="helbiz logo">
+                <div class="logo col-lg-3 col-lg-offset-1">
+                    <img src="img/helbiz-logo.svg" alt="helbiz logo">
                 </div>
 
                 <!-- COLONNA MENU -->
-                <div class="col-lg-8">
+                <div class="nav col-lg-8">
 
                     <!-- HAMBURGER MENU PER DISPOSITIVI MOBILI -->
-                    <div class="lg-display-none md-display txt-dx mr-10">
+                    <div class="nav-hamb lg-display-none md-display txt-dx mr-10">
                         <i class="fas fa-bars"></i>
                     </div>
 
                     <!-- MENU PRINICIPALE -->
-                    <div class="row md-display-none">
-                        <!-- main nav -->
-                        <div class="col-lg-9 txt-dx">
-                            <nav>
-                                <ul class="nav-menu">
-                                    <li><a href="#">HelbizGo</a></li>
-                                    <li><a href="#">HelbizBike</a></li>
-                                    <li><a href="#">HelbizAir</a></li>
-                                    <li><a href="#">Cities</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                    <li><a href="#">Shop</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+                    <div class="main-nav row md-display-none">
+                        <nav class="nav-sel col-lg-9 txt-dx">
+                            <ul>
+                                <li><a href="#">HelbizGo</a></li>
+                                <li><a href="#">HelbizCar</a></li>
+                                <li><a href="#">HelbizAir</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Cities</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Shop</a></li>
+                            </ul>
+                        </nav>
 
                         <!-- MENU CAMBIO LINGUA -->
-                        <div class="col-lg-3">
-                            <nav>
-                                <ul class="nav-lang">
-                                    <li><a href="#">Eng</a></li>
-                                    <li><a href="#">Ita</a></li>
-                                    <li><a href="#">Es</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+                        <nav class="lang-nav col-lg-3">
+                            <ul>
+                                <li><a href="#">Eng</a></li>
+                                <li><a href="#">Ita</a></li>
+                                <li><a href="#">Es</a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
