@@ -1,4 +1,13 @@
+/* - - GENERAL - - */
 .container {
-  max-width: 1270px;
+  max-width: 1300px;
   margin: 0 auto;
+}
+
+/* - - JUMBOTRON - - */
+.jumbotron {
+  background-image: url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
