@@ -252,3 +252,43 @@ h2 {
 .app a:hover {
   text-decoration: underline;
 }
+
+/* Quinta sezione - Family */
+.family {
+  height: 402px;
+  background-image: url(../img/image-wall.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 30px 0;
+  position: relative;
+}
+
+.family .social-rect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 500px;
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+.family .social-rect h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.family .social-rect i {
+  font-size: 1.8em;
+}
+
+.family .social-rect :not(:last-child) i {
+  margin-right: 30px;
+}
+
+.family .social-rect i:hover {
+  cursor: pointer;
+  color: #0070c8;
+}
