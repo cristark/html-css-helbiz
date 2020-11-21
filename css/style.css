@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 1350px;
+  max-width: 1392px;
   margin: 0 auto;
 }
 
@@ -197,5 +197,58 @@ h2 {
 }
 
 .mobility .row [class*="col-"] a:hover {
+  text-decoration: underline;
+}
+
+/* Quarta Sezione - App */
+.app {
+  height: 400px;
+}
+
+.app .pad-row {
+  height: 100%;
+}
+
+.app .tel-app {
+  background-image: linear-gradient(#3c4f61, #212529);
+}
+
+.tel-app,
+.city-app {
+  color: white;
+  height: 100%;
+  padding-top: 30px;
+}
+
+.tel-app .row {
+  background-image: url(../img/iphone-bg.2dae1bd.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center -90%;
+}
+
+.app .city-app {
+  height: 100%;
+  background-image: url(../img/city.7c8c928.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app h2 {
+  font-size: 2em;
+}
+
+.app p {
+  font-size: 1.5em;
+}
+
+.app a {
+  color: white;
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+
+.app a:hover {
   text-decoration: underline;
 }
