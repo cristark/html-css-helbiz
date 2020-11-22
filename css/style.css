@@ -354,7 +354,21 @@ footer hr {
 }
 
 .footer-terms [class*="col-"] a {
-  opacity: 0.6;
+  font-size: 0.9em;
+}
+
+.footer-terms [class*="col-"] i {
+  font-size: 1.3em;
+  margin-right: 20px;
+}
+
+.footer-terms [class*="col-"] i:hover {
+  color: #0070c8;
+  cursor: pointer;
+}
+
+.footer-terms img {
+  height: 15px;
 }
 
 .footer-app {
